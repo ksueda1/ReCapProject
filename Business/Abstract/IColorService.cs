@@ -4,10 +4,10 @@ using Entities.Concrete;
 
 namespace Business.Abstract
 {
-    public interface IBrandService
+    public interface IColorService
     {
-        List<Brand> GetAll();
+        List<Color> GetAll();
 
-        Brand GetById(int brandId);
+        Color GetById(int colorId);
     }
 }
