@@ -16,10 +16,10 @@ namespace ConsoleUI
 
             //ColorManager colorManager = new ColorManager(new EfColorDal());
 
-            foreach (var car in carManager.GetCarDetails())
-            {
-                Console.WriteLine("{0}, {1}, {2}, {3}, {4}", car.Id, car.BrandName, car.ColorName, car.Descriptions, car.DailyPrice);
-            }
+            //foreach (var car in carManager.GetCarDetails())
+            //{
+            //    Console.WriteLine("{0}, {1}, {2}, {3}, {4}", car.Id, car.BrandName, car.ColorName, car.Descriptions, car.DailyPrice);
+            //}
 
             //add and delete functions
 
